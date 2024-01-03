@@ -43,6 +43,7 @@ export default function Home() {
           <FiSettings className="size-12 hover:stroke-violet-600" />
         </Tooltip>
       </div>
+      <h1 className="text-2xl font-bold text-black">Generate a number and or prompt and let your friends guess your number</h1>
       <button className="relative rounded bg-purple-500 p-4" onClick={generate}>
         Generate
       </button>
